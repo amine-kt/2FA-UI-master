@@ -24,7 +24,7 @@ let case6 = document.querySelector('#number-6')
     
 
 
-let regex = /^[1-9]{1}/
+let regex = /^[0-9]{1}$/
 
 function SendCode(){
     if(!case1.value.trim() && !case2.value.trim() && !case3.value.trim() && !case4.value.trim() && !case5.value.trim() && !case6.value.trim()){
